@@ -1,5 +1,10 @@
 # Aurora3D ✦
 
+[![CI](https://github.com/DaddyYarik/aurora3d/actions/workflows/ci.yml/badge.svg)](https://github.com/DaddyYarik/aurora3d/actions/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](#requirements)
+
 A real-time 3D engine that runs **entirely in your terminal** — with zero
 dependencies. Just the Python standard library.
 
