@@ -14,8 +14,8 @@ lights, a truecolor output, and a twinkling starfield. It can load Wavefront
 export everything to a seamless looping **GIF** — using a GIF89a + LZW encoder
 written from scratch (still no dependencies).
 
-![Aurora3D demo](demo.gif)
-![Two shapes at once](demo_dual.gif)
+![Aurora3D demo](https://raw.githubusercontent.com/DaddyYarik/aurora3d/main/demo.gif)
+![Two shapes at once](https://raw.githubusercontent.com/DaddyYarik/aurora3d/main/demo_dual.gif)
 
 ## Features
 
@@ -35,6 +35,26 @@ written from scratch (still no dependencies).
 ## Requirements
 
 Python 3.9+ — nothing else.
+
+## Install
+
+```bash
+pipx install aurora3d      # recommended: isolated, puts `aurora3d` on your PATH
+# or
+pip install aurora3d
+```
+
+Then just run the command:
+
+```bash
+aurora3d                       # interactive demo
+aurora3d --text "AURORA 3D"    # extruded 3D text
+aurora3d --obj model.obj --dual
+aurora3d --gif out.gif         # export a looping GIF
+```
+
+No install needed to try it — running straight from a clone with
+`python aurora.py …` works exactly the same.
 
 ## Usage
 

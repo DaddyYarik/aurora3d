@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aurora3d"
+version = "1.0.0"
+description = "A dependency-free real-time 3D engine for your terminal, with from-scratch GIF export."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "DaddyYarik" }]
+keywords = ["terminal", "3d", "ascii", "ansi", "gif", "graphics", "renderer", "demoscene"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Artistic Software",
+    "Topic :: Multimedia :: Graphics",
+]
+
+[project.urls]
+Homepage = "https://github.com/DaddyYarik/aurora3d"
+Repository = "https://github.com/DaddyYarik/aurora3d"
+Issues = "https://github.com/DaddyYarik/aurora3d/issues"
+
+[project.scripts]
+aurora3d = "aurora:main"
+
+[tool.setuptools]
+py-modules = ["aurora"]
